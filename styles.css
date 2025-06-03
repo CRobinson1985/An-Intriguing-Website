@@ -1,0 +1,77 @@
+@font-face {
+  font-family: bodoni;
+  src: url(assets/fonts/Bodoni/BodoniModa-VariableFont_opsz\,wght.ttf);
+
+}
+@font-face {
+  font-family: liter;
+  src: url(assets/fonts/Liter/Liter-Regular.ttf);
+}
+* {
+  font-size: 18px;
+  font-family: liter;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+  width: 100vw;
+  background-color: black;
+  color: aliceblue;
+  display: flexbox;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: bodoni;
+}
+h1 {
+  justify-self: center;
+  font-size: 6em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+.head-div {
+  width: 100vw;  
+  justify-items: center;
+  
+}
+#nyc-card {
+  float: left;
+}
+.card {
+  height: 500px;
+  width: 400px;
+  overflow: hidden;
+  position: relative;
+  background-color: #111111;
+  border-radius: 10px;
+  margin: 2%;
+}
+.img {
+  position: absolute;
+  object-fit: cover;
+  transition: all 4s ease-in-out;
+  top: 100px;
+  height: 100%;
+  width: 100%;
+  transform: scale(2);
+  
+}
+.img:hover {
+  transform: scale(1.5);
+  transition: all 5s ease-in-out;
+  opacity: 0.4;
+}
+.text-section {
+  margin: 2% 4%;
+  padding: 2%;
+}
+#landscape-card {
+  float: right;
+}
