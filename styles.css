@@ -56,7 +56,7 @@ h3 {
 .img {
   position: absolute;
   object-fit: cover;
-  transition: all 4s ease-in-out;
+  transition: all 2s ease-in-out;
   top: 100px;
   height: 100%;
   width: 100%;
@@ -65,8 +65,9 @@ h3 {
 }
 .img:hover {
   transform: scale(1.5);
-  transition: all 5s ease-in-out;
-  opacity: 0.4;
+  filter: blur(3px);
+  transition: all 1.5s ease-in-out;
+  opacity: 0.5;
 }
 .text-section {
   margin: 2% 4%;
